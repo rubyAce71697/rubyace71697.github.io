@@ -572,6 +572,14 @@ p.w3ls_head_para {
 
 .w3l-grids-about {
     margin-top: 3em;
+    font-size: 1.6em;
+    color: #333;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 3em;
+    font-weight: bold;
+    line-height: 150%;
 }
 
 .w3ls-agile-left-info a {
