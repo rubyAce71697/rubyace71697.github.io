@@ -27,7 +27,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Gidugu', sans-serif;
+    /*font-family: 'Gidugu', sans-serif;*/
     text-transform: uppercase;
     margin: 0;
 }
@@ -891,16 +891,23 @@ p.b_label {
     align-items: center;
     align-content: center;
     margin-bottom: 22px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .agileinfo_portfolio_grid img {
-    width: 60%;
+    width: 80%;
     height: auto;
     margin: auto;
     display: block;
     overflow: hidden;
     object-fit: cover;
     border: 4px border-style blue;
+}
+
+.agileinfo_portfolio_grid p {
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 .agileinfo_portfolio_grid h4 {

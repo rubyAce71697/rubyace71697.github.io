@@ -359,3 +359,9 @@ p {
 
 
 /* Ex-Large devices (large desktops, 1200px and up) */
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact;
+    }
+}
